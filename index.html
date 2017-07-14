@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Poryad</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" href="favicon.png"/>
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="ba-main-section">
+		<div class="ba-container">
+			<header class="ba-header">
+				<div class="ba-grid ba-grid-nopad">
+					<div class="ba-logo-block ba-width-2-5">
+						<a href="#" class="ba-logo">
+							<img src="img/head-section/logo.png" alt="Logo">
+						</a>
+						<input type="search" name="search" placeholder="Назва проекту"><span class="icon-search"></span>
+					</div>
+					<div class="ba-width-45">
+						<nav class="ba-nav">
+							<ul class="ba-menu">
+								<li class="current"><a href="#">Волонтерство</a></li>
+								<li><a href="#projects">Підбір проекта</a></li>
+								<li><a href="#state">Стан проектів</a></li>
+								<li><a href="#news">Новини</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="ba-width-15 ba-entrance">
+
+						<div class="poryad-like-heart">
+							<input  class="poryad-heart" id="heart" type="checkbox" name="count">
+							<label class="like-count" for="heart"><span class="icon-heart"></span>2</label>
+						</div>
+
+						<div class="entrance-block">
+							<button class="button-language">УК</button>
+							<button class="button-entrance">
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 11">
+									<path class="entrance-arrow" id="entranse-arrow.svg"  d="M1100,55h16v3h-16V55Zm23,1.5-10,5.513V50.989Z" transform="translate(-1100 -51)"  />
+								</svg>
+								<svg class="entrance-circle" xmlns="http://www.w3.org/2000/svg" width="24.82" height="24.813" viewBox="0 0 24.82 24.813">
+
+									<circle id="entranse-elipse.svg" class="cls-1" cx="12.41" cy="12.406" r="11.5"/>
+								</svg>
+								Увійти
+							</button>
+						</div>
+					</div>
+
+				</div>
+
+			</header>
+
+		</div>
+
+		<!-- Slider -->
+
+		<div id="slider">
+
+			<input type="radio" name="slider" id="slide1" checked>
+			<input type="radio" name="slider" id="slide2">
+			<input type="radio" name="slider" id="slide3">
+
+			<div id="slides">
+				<div id="overflow">
+					<div class="inner">
+						<div class="page page-aged-people">
+							<img src="img/slider-elm/grandpa-bg.jpg" height="771" alt="Grandpa-bg">
+							<p>Літні люди</p>
+							<img class="grandpa" src="img/slider-elm/grandpa.png" alt="Grandpa">
+							<img class="grandpa-shadow" src="img/slider-elm/grandpa-shadow.png" alt="Grandpa-shadow">
+							<img class="big-shadow" src="img/slider-elm/white-shadow.png" alt="Shadow">
+							<img class="logo-min" src="img/slider-elm/logo_min.png" alt="Logo-min">
+							<img class="dove-1" src="img/slider-elm/dove-1.png" alt="Dove-1">
+							<img class="dove-2" src="img/slider-elm/dove-2.png" alt="Dove-2">
+							<div class="page-aged-people--text">
+								<p>Раніше було краще? Все було дешево?<br>
+									ні, не чув,<br>
+									Бо в мене все добре! <span>підтримка</span></p>
+							</div>
+						</div>
+						<div class="page page-shelters">
+							<img src="img/slider-elm/dog-bg.jpg" alt="Slider2">
+							<p>Притулки для тварин</p>
+							<img class="grandpa dog" src="img/slider-elm/dog.png" alt="Dog">
+							<img class="grandpa-shadow dog-shadow" src="img/slider-elm/dog-shodow.png" alt="Dog-shadow">
+							<img class="big-shadow dog-big-shadow" src="img/slider-elm/big-dog-shadow.png" alt="Shadow">
+							<img class="logo-min logo-min__dog" src="img/slider-elm/logo_min.png" alt="Logo-min">
+							<div class="page-aged-people--text page-shelters__text">
+								<p>...що що? кажеш друг тобі потібен?<br>
+									так я ж</p>
+							</div>
+
+						</div>
+						<div class="page page-aged-people">
+							<img src="img/slider-elm/grandpa-bg.jpg" alt="Grandpa-bg">
+							<p>Літні люди</p>
+							<img class="grandpa" src="img/slider-elm/grandpa.png" alt="">
+							<img class="grandpa-shadow" src="img/slider-elm/grandpa-shadow.png" alt="Grandpa-shadow">
+							<img class="big-shadow" src="img/slider-elm/white-shadow.png" alt="Shadow">
+							<img class="logo-min" src="img/slider-elm/logo_min.png" alt="Logo-min">
+							<img class="dove-1" src="img/slider-elm/dove-1.png" alt="Dove-1">
+							<img class="dove-2" src="img/slider-elm/dove-2.png" alt="Dove-2">
+							<div class="page-aged-people--text">
+								<p>Раніше було краще? Все було дешево?<br>
+									ні, не чув,<br>
+									Бо в мене все добре! <span>підтримка</span></p>
+							</div>
+						</div>
+					</div>
+					<!-- inner -->
+				</div>
+				<!-- overflow -->
+			</div>
+			<!-- slodes -->
+			<div id="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+			<!-- controls -->
+			<div class="ba-container">
+				<div class="ba-header-textblock">
+					<div class="ba-slogan">
+						<h2>Найбільша в Україні біржа добра</h2>
+						<p>Допомогати просто</p>
+					</div>
+				</div>
+				<a href="#projects" class="ba-button__choise">
+					<i class="arrow down"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<main role="main" >
+
+		<!-- assistance -->
+			<section id="projects" class="ba-assistance">
+				<div class="ba-container">
+					<div class="ba-assistance__block">
+						<div class="ba-grid">
+							<div class="ba-width-small-1-2 ba-width-medium-1-4">
+								<p>Підбір допомоги</p>
+								<div class="ba-choice-help">
+									<button class="ba-button__choice-help">Прибрати параметри пошуку</button>
+									<input  class="choice-heart" id="choice-heart1" type="checkbox" name="heart" checked>
+									<label for="choice-heart1"><span class="icon-heart"></span>Фінансова</label>
+									<input  class="choice-heart" id="choice-heart2" type="checkbox" name="heart">
+									<label for="choice-heart2"><span class="icon-heart"></span>Матеріальна</label>
+									<input  class="choice-heart" id="choice-heart3" type="checkbox" name="heart">
+									<label for="choice-heart3"><span class="icon-heart"></span>Послуга</label>
+								</div>
+								<div class="ba-choice__filter">
+									<button class="ba-button ba-checked">Притулки для тварин</button>
+									<button class="ba-button">Освіта</button>
+									<button class="ba-button">Інваліди</button>
+									<button class="ba-button">Переселенці зони ато</button>
+									<button class="ba-button">Війскові</button>
+									<button class="ba-button">Літні люди</button>
+									<button class="ba-button">Діти</button>
+								</div>
+								<div class="ba-time-filter-data">
+									<button class="ba-button ba-button__timefilter">Впорядкувати</button><button class="ba-button ba-button__timefilter">останні додані</button>
+								</div>
+								<p class="ba-choise__shelter--title">Притулки</p>
+								<div class="ba-choise__shelter">
+									<button class="ba-button__choise-help">Показати всі пропозиції</button>
+									<input class="choise-heart" id="choise-heart1" type="checkbox" name="heart" checked>
+									<label for="choise-heart1"><span class="icon-heart"></span>Амеда</label>
+									<input  class="choise-heart" id="choise-heart2" type="checkbox" name="heart" checked>
+									<label for="choise-heart2"><span class="icon-heart"></span>Сіріус</label>
+									<input  class="choise-heart" id="choise-heart3" type="checkbox" name="heart" checked>
+									<label for="choise-heart3"><span class="icon-heart"></span>Мілосердя</label>
+									<input  class="choise-heart" id="choise-heart4" type="checkbox" name="heart" checked>
+									<label for="choise-heart4"><span class="icon-heart"></span>Громадська ініціатива</label>
+									<input  class="choise-heart" id="choise-heart5" type="checkbox" name="heart" checked>
+									<label for="choise-heart5"><span class="icon-heart"></span>Хвости і лапи</label>
+									<input  class="choise-heart" id="choise-heart6" type="checkbox" name="heart">
+									<label for="choise-heart6"><span class="icon-heart"></span>Пан коцький</label>
+									<input  class="choise-heart" id="choise-heart7" type="checkbox" name="heart">
+									<label for="choise-heart7"><span class="icon-heart"></span>Звіринець</label>
+								</div>
+							</div>
+							<div class="ba-width-small-1-2 ba-width-medium-3-4">
+								<p class="shelters-event-title">Притулки для тварин</p>
+								<div class="organizations-list">
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal1.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart1" type="checkbox" name="rating">
+												<label for="event-heart1"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square"></div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Збираємо кошти на харчування тварин</p>
+											<p>Притулок Сіріус</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal2.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart2" type="checkbox" name="rating">
+												<label for="event-heart2"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square">Info</div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Необхідно провести вакцінацію собак</p>
+											<p>Притулок Сіріус</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal3.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart3" type="checkbox" name="rating">
+												<label for="event-heart3"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square">Info</div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Потрібні кошти для лікування Шаріка</p>
+											<p>Притулок Амеда</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal4.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart4" type="checkbox" name="rating">
+												<label for="event-heart4"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square">Info</div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Допоможіть Мурчику на протез задньої лапи</p>
+											<p>Притулок Милосердя</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal5.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart5" type="checkbox" name="rating">
+												<label for="event-heart5"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square">Info</div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Збираємо кошти для благоустрою м. Київ</p>
+											<p>Громадська ініціатива</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+									<div class="organizations-list__item">
+										<div class="organizations-list__item--img">
+											<a href="#">
+												<img src="img/shelters/shelter-for-animal6.jpg" alt="Shelter">
+											</a>
+											<div class="event-like-heart">
+												<input  class="heart__input" id="event-heart6" type="checkbox" name="rating">
+												<label for="event-heart6"><span class="icon-heart"></span></label>
+											</div>
+											<div class="ba-info-square">Info</div>
+											<div class="ba-close"></div>
+										</div>
+										<div class="organizations-list__item--bottom">
+											<p>Збираємо кошти на харчування собак</p>
+											<p>Притулок Хвости і лапи</p>
+											<div class="organizations-list__item--hidden">
+												<p>сума необмежена</p>
+												<button class="ba-button">Допомогти</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- pagination -->
+								<div class="button-more">
+									<a href="#"></a>
+								</div>
+								<div class="event-pagination">
+									<p>Показати більше позицій</p>
+									<div class="event-paginatin__bitton">
+										<a href="#"></a>
+										<a href="#" class="active"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- assistance -->
+
+		<!-- ba-charity -->
+		<section id="state" class="ba-charity">
+			<div class="ba-container">
+			<div class="ba-charity__all">
+				<div class="ba-grid ba-grid-nopad">
+					<div class="ba-width-medium-3-4">
+						<div class="ba-charity__information cf">
+							<div class="ba-charity__text ba-float-right">
+								<h6>ЗБИРАЄМО КОШТИ НА ХАРЧУВАННЯ ТВАРИН #ДАЙ5!</h6>
+								<h6>Притулок Сіріус</h6>
+								<p>Що можна купити на 5 гривень? Більше, ніж ти думаєш – цілий день ситого життя для одного безпритульного собаки! Ми знову запускаємо естафету #ДАЙ5 і закликаємо всіх  підтримати понад дві тисячі вихованців найбільшого в Україні притулку для тварин "Сіріус"</p>
+								<p class="bank-requisites">Поліпшити умови очікування справжнього дому просто: перераховуй 5 або більше гривень на картку притулку</p>
+								<span class="bank-requisites">Приватбанк</span>
+								<span class="bank-requisites bank-requisites__account">5169 3305 1043 1114,</span>
+ 								<span class="bank-requisites">Мезінова О. В. (директора притулку)</span>
+								<span class="bank-requisites">або через сайт</span>
+ 								<span class="bank-requisites"><a href="http://sheltersirius.org">http://sheltersirius.org</a> і передай естафету друзям.</span>
+								<p class="charity-manual">Також можна налаштувати регулярний платіж і годувати хвостів на постійній основі. Як це зробити, дивись тут: <a class="bank-requisites__manual" href="нgoo.gl/cYzT3Y">нgoo.gl/cYzT3Y</a></p>
+							</div>
+							<div class="ba-charity__slider ba-float-left">
+								<div id="slider-charity">
+									<input type="radio" name="slider-charity" id="slide-charity-1" checked>
+									<input type="radio" name="slider-charity" id="slide-charity-2">
+									<input type="radio" name="slider-charity" id="slide-charity-3">
+
+									<div id="slides-charity">
+										<div id="overflow1">
+											<div class="inner">
+												<div class="shelter-page">
+													<img src="img/charity/give-five.jpg" alt="Shelter1">
+													<img src="img/charity/logo-charity.jpg" alt="Logo-charity" class="logo-charity">
+													<div class="charity-like-heart">
+														<input  class="heart__input" id="heart1" type="checkbox" name="rating">
+														<label for="heart1"><span class="icon-heart"></span></label>
+													</div>
+												</div>
+												<div class="shelter-page">
+													<img src="img/charity/give-five.jpg" alt="Shelter2">
+													<img src="img/charity/logo-charity.jpg" alt="Logo-charity" class="logo-charity">
+													<div class="charity-like-heart">
+														<input  class="heart__input" id="heart2" type="checkbox" name="rating">
+														<label for="heart2"><span class="icon-heart"></span></label>
+													</div>
+												</div>
+												<div class="shelter-page">
+													<img src="img/charity/give-five.jpg" alt="Shelter3">
+													<img src="img/charity/logo-charity.jpg" alt="Logo-charity" class="logo-charity">
+													<div class="charity-like-heart">
+														<input  class="heart__input" id="heart3" type="checkbox" name="rating">
+														<label for="heart3"><span class="icon-heart"></span></label>
+													</div>
+												</div>
+											</div>
+											<!-- inner -->
+										</div>
+										<!-- overflow -->
+									</div>
+									<!-- slodes -->
+									<div id="controls-charity">
+										<label for="slide-charity-1"></label>
+										<label for="slide-charity-2"></label>
+										<label for="slide-charity-3"></label>
+									</div>
+								</div>
+								<p>Сума необмежена</p>
+								<a class="ba-button__charity" href="#">Допомогти</a>
+							</div>
+						</div>
+					</div>
+					<div class="ba-width-medium-1-4">
+						<div class="ba-charity__contacts">
+							<h6>КОНТАКСТИ Притулок Сіріус</h6>
+							<p class="shelter-tel">тел. <a href="tel:+380634567890">063 456 78 90</a></p>
+							<a href="#" class="ba-socials__link ba-socials__link--fb">
+								<img src="img/footer/fb.png" alt="FB">
+							</a>
+							<a href="#" class="ba-socials__link ba-socials__link--vk">
+								<img src="img/footer/vk.png" alt="Vk">
+							</a>
+							<a href="https://www.domcat.com.ua" class="animal-shelter-site">www.domcat.com.ua</a>
+							<button class="ba-send-letter">Написати нам</button>
+							<p class="ba-shelter-address">Україна, Київська область, село Федорівка</p>
+							<img src="img/charity/map.jpg" alt="Map" class="bs-charity-map">
+							<a class="another-projects" href="#">Переглянути інші проекти організації</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<!-- ba-charity -->
+
+		<!-- interesting -->
+		<div class="ba-container">
+			<section id="news" class="ba-interesting">
+				<div class="ba-interesting__place">
+					<h6 class="ba-intersting__title">Вас можуть зацікавити</h6>
+					<div class="ba-grid">
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-1.jpg" alt="Interest">
+								<p>Волонтерство вихідного дня</p>
+							</a>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-2.jpg" alt="Interest">
+								<p>Чапік шукає даму серця</p>
+							</a>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-3.jpg" alt="Interest">
+								<p>Нам потрібен старий посуд та підстилки</p>
+							</a>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-4.jpg" alt="Interest">
+								<p>Я Інжир і мені потрібен дім на тиждень</p>
+							</a>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-5.jpg" alt="Interest">
+								<p>Ми вже два місяці як готові дарувати вам щастя</p>
+							</a>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-6 ba-interesting__block">
+							<a href="#">
+								<img src="img/interest/interest-6.jpg" alt="Interest">
+								<p>Шукаємо сторожа в притулок</p>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+		</div>
+		<!-- interesting -->
+	</main>
+	<footer class="ba-footer">
+		<div class="ba-container">
+			<div class="ba-footer__block">
+				<div class="ba-grid ba-grid-nopad">
+					<div class="ba-width-small-1-1 ba-width-medium-1-3 ba-question">
+						<p>З питань розміщення проектів заповніть форму</p>
+						<form action="#" method="post" class="ba-question__form">
+							<button type="submit" class="ba-button__contact">Відправити</button>
+							<input type="text" name="name" class="ba-question__name" placeholder="Ім'я" required>
+							<input type="text" name="name" class="ba-question__name" placeholder="Прізвище" required>
+							<input type="text" name="email" class="ba-question__name" placeholder="Email" required>
+							<textarea class="ba-question__text" placeholder="Текст" required></textarea>
+						</form>
+						<p>Всі поля обов'язкові</p>
+					</div>
+					<div class="ba-width-small-1-1 ba-width-medium-1-3">
+						<div class="ba-contact">
+							<div class="ba-tel">
+								<p>Телефон</p>
+								<a href="tel:+380634567890">063 456 78 90</a>
+							</div>
+							<div class="ba-email">
+								<p>E-mail</p>
+								<a href="mailto:info@porjad.gmail.com">info@porjad.gmail.com</a>
+							</div>
+							<div class="ba-submit">
+								<p>Підпишіться та отримуйте новини про нові проекти та активність у вашому кабінеті</p>
+								<form action="#" method="post" class="ba-submit__form">
+									<input type="text" name="email" class="ba-question__name" placeholder="E-mail">
+									<button type="submit" class="ba-button__submit">Підпистися</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="ba-width-small-1-1 ba-width-medium-1-3">
+						<div class="ba-socials">
+							<div class="ba-socials__links">
+								<p>Приєднуйтесь до нас у соціальних мережах</p>
+								<a href="#" class="ba-socials__link ba-socials__link--fb">
+									<img src="img/footer/fb.png" alt="FB" class="ba-vertical-align-middle">
+									<p class="ba-vertical-align-middle">facebook</p>
+								</a>
+								<a href="#" class="ba-socials__link ba-socials__link--vk">
+									<img src="img/footer/vk.png" alt="Vk" class="ba-vertical-align-middle">
+									<p class="ba-vertical-align-middle">vkontakte</p>
+								</a>
+								<a href="#" class="ba-socials__link ba-socials__link--gl">
+									<img src="img/footer/google.png" alt="Google" class="ba-vertical-align-middle">
+									<p class="ba-vertical-align-middle">google+</p>
+								</a>
+								<a href="#" class="ba-socials__link ba-socials__link--inst">
+									<span class="icon-instagram-with-circle ba-vertical-align-middle"></span>
+									<p class="ba-vertical-align-middle">instagram</p>
+								</a>
+							</div>
+							<div class="ba-logo-footer ba-text-right">
+								<img src="img/footer/logo-footer.png" alt="Logo-footer">
+							</div>
+							<div class="ba-copyright">
+								<p class="ba-text-right">© 2017 Соціальні проекти 'ПОРЯД'. Всі права захищені</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
